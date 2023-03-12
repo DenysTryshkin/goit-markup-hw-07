@@ -46,4 +46,9 @@
     .hero-title {
         font-weight: 500;
         }
+
+        .modal {
+        width: 408px;
+        min-height: 584px;
+        }
 }
