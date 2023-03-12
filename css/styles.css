@@ -230,15 +230,22 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 /*------------hero-------------*/
 
+.hero {
+    padding: 96px 16px;
+}
+
 .hero-list {
 display: flex;
+flex-direction: column;
+gap: 72px;
+justify-content: center;
 }
 
 .hero-icon {
 width: 264px;
 height: 112px;
 background: #F4F4FD;
-display: flex;
+display: none;
 align-items: center;
 justify-content: center;
 border-radius: 4px;
@@ -251,20 +258,27 @@ height: 64px;
 fill: #2E2F42;
 }
 
-.hero-item:not(:last-child) {
+/* .hero-item:not(:last-child) {
 margin-right: 24px;
-}
+} */
 
 .hero-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
 color: var(--primary-title-color);
+text-align: center;
 margin-bottom: 8px;
 }
 
+.hero-item {
+    width: 100%;
+}
+
 .hero-text {
-max-width: 264px;
+/* max-width: 396px;
+height: 48px; */
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -319,13 +333,17 @@ margin-bottom: 72px;
 
 .team-list {
 display: flex;
+flex-wrap: wrap;
+gap: 72px;
+justify-content: center;
 }
 
-.team-item:not(:nth-child(n + 4)) {
+/* .team-item:not(:nth-child(n + 4)) {
 margin-right: 24px;
-}
+} */
 
 .team-item {
+width: 264px;
 background: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -409,6 +427,7 @@ padding-bottom: 96px;
 display: flex;
 gap: 16px;
 flex-wrap: wrap;
+justify-content: center;
 }
 
 .customers-soc-item {
@@ -961,64 +980,9 @@ margin-left: 2px;
 color: #4D5AE5;
 }
 
-@media screen and (min-width: 480px) {
-    .container {
-        max-width: 426px;
-    }
-
-       
-    }
 
 
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 766px;
-    }
-
-    .customers-soc-list {
-        gap: 24px;
-        align-items: center;
-        justify-content: center;
-        }
-
-    .customers-soc-item {
-        width: 168px;
-        height: 88px;
-        }
-
-    .customers-soc-list .customers-soc-link {
-        width: 168px;
-        height: 88px;
-        }
-
-    .team > .container {
-        max-width: 582px;
-        }
-    }
-
-
-
-
-@media screen and (min-width:1200px) {
-    .container {
-        max-width: 1158px;
-    }
-
-    .about {
-        display: flex;
-        gap: 24px;
-    }
-
-    .about-pre-title{
-        gap: 0;
-    }
-
-    .customers {
-        padding-bottom: 120px;
-    }
-
-}
 
 
 

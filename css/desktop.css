@@ -1,0 +1,49 @@
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1158px;
+    }
+
+    .about {
+        display: flex;
+        gap: 24px;
+    }
+
+    .about-pre-title{
+        gap: 0;
+    }
+
+    .customers {
+        padding-bottom: 120px;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: nowrap;
+        }
+
+    .hero-icon {
+        display: flex;
+            }
+
+    .hero-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+    .hero-list {
+        flex-direction: none;
+        flex-wrap: nowrap;
+}
+
+    .hero-text {
+        font-weight: 400;
+    }
+
+    .hero-title {
+        font-weight: 500;
+        }
+}
