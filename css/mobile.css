@@ -6,4 +6,8 @@
     .customers-soc-list {
         justify-content: none;
         }
+
+        .modal-title {
+            font-size: 12px;
+        }
 }

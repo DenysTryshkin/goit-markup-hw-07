@@ -779,6 +779,22 @@ transition: opacity 250ms linear, visibility 250ms linear;
 }
 
 .modal {
+    position: absolute;
+    padding: 72px 16px 24px 16px;
+    max-width: 392px;
+;
+    width: calc(100% - 32px);
+    min-height: 586px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    opacity: 1;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+/* .modal {
 position: absolute;
 top: 50%;
 left: 50%;
@@ -790,7 +806,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0p
 border-radius: 4px;
 padding: 24px;
 transition: transform 250ms linear;
-}
+} */
 
 .backdrop.is-hidden .modal {
 transform: translate(-50%, -50%) skew(90deg);
