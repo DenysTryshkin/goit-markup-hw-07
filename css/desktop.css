@@ -26,13 +26,17 @@
         flex-wrap: nowrap;
         }
 
+    .hero {
+        padding-bottom: 120px;
+        }
+
     .hero-icon {
         display: flex;
             }
 
-    .hero-item:not(:last-child) {
-    margin-right: 24px;
-}
+    /* .hero-item:not(:last-child) {
+        margin-right: 24px;
+} */
 
     .hero-list {
         flex-direction: none;
@@ -45,9 +49,11 @@
 
     .hero-title {
         font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         }
 
-        .modal {
+    .modal {
         width: 408px;
         min-height: 584px;
         }
