@@ -54,4 +54,91 @@
         min-height: 586px;
         padding-left: 24px;
         }
+        .section-title {
+            font-size: 56px;
+            width: 496px;
+            height: 120px;
+            margin-bottom: 36px;
+        }
+
+        .section-button {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/background-hero-tablet.jpg);
+            }
+
+        @media (min-device-pixel-ratio: 2),
+           (min-resolution: 192dpi),
+           (min-resolution: 2dppx) {
+        .section-button {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/background-hero-tablet-x2.jpg);
+         }
+        }
+
+        .header-navigation {
+            display: flex;
+            }
+            
+            .header-list {
+            display: flex;
+            align-items: center;
+            }
+            
+            .header-item:not(:last-child) {
+            margin-right: 40px;
+            }
+
+            .current::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 4px;
+                color: #404BBF;
+                background: #404BBF;
+                border-radius: 2px;
+                display: block;
+                bottom: -31px;
+                }
+            
+            .header-pre-contacts {
+            display: block;
+            margin-left: auto;
+            /* align-items: center; */
+            }
+            
+            .header-contacts:not(:last-child) {
+            margin-right: 40px;
+            }
+            .header-mail {
+                font-style: normal;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: var(--secondary-title-color);
+                transition-property: color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+                
+                .header-tel {
+                font-style: normal;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: var(--secondary-title-color);
+                transition-property: color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                }
+               
+
+                .header-tel, .header-mail {
+                    display: unset;
+                    }
+
+                    .button-menu-open {
+                        display: none;
+                    }
+    
     }

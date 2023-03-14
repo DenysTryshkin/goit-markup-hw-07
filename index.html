@@ -15,8 +15,8 @@
 <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
-    <!-- <header class="header">
-        <div class="container header-container">
+    <header class="header">
+        <div class="header-container container" >
         <nav class="header-navigation">
             <a href="./index.html" class="header-logo link">Web<span class="header-logo-item">Studio</span></a>
           <ul class="header-list list">
@@ -39,16 +39,21 @@
             <a class="header-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
+            <button type="button" class="button-menu-open" data-menu-open="">
+                <svg class="svg-menu-open" width="30" height="19">
+                    <use href="./images/icons.svg.svg#icon-mobile-svg"></use>
+                </svg>
+            </button>
             </div>
-      </header> -->
+      </header>
       <main>
-        <section class="section-button">
-            <div class="container section-button-container">
+        <section class="section-button container">
+            <div class="container">
             <h1 class="section-title">Effective Solutions for Your Business</h1>
         <button class="section-btn" type="button" data-modal-open >Order Service</button>
     </div>    
     </section>
-        <section class="hero">
+         <section class="hero">
             <div class="container">
         <h2 hidden>our features</h2>
         <ul class="hero-list list">
@@ -95,13 +100,14 @@
             <div class="container">
         <h2 class="about-title ">What are we doing</h2>
         <ul class="about-pre-title list">
-            <li class="about-after-title"><img src="./images/computer.jpg" alt="computer" width="360">
+            <li class="about-after-title">
+                <img src="./images/computer.jpg" srcset="./images/computer.jpg 1x, ./images/computer-x2.jpg 2x" alt="computer" width="360">
             </li>
             <li class="about-after-title">
-                <img src="./images/screens.jpg" alt="screens of phone" width="360">
+                <img src="./images/screens.jpg" srcset="./images/screens.jpg 1x, ./images/screens-x2.jpg 2x" alt="screens of phone" width="360">
             </li>
             <li class="about-after-title">
-                <img src="./images/hand.jpg" alt="laptop and phone" width="360">
+                <img src="./images/hand.jpg" srcset="./images/hand.jpg 1x, ./images/hand-x2.jpg 2x" alt="laptop and phone" width="360">
             </li>
         </ul>
         </div>
@@ -111,7 +117,7 @@
             <h2 class="team-title">Our Team</h2>
             <ul class="team-list list">
                 <li class="team-item">
-                    <img src="./images/team-1.jpg" alt="Photo" width="264">
+                    <img src="./images/team-1.jpg" srcset="./images/team-1.jpg 1x, ./images/team-1-x2.jpg 2x" alt="Photo" width="264">
                     <div class="team-border">
                     <h3 class="team-after-title">Mark Guerrero</h3>
                     <p class="team-text">Product Designer</p>
@@ -148,7 +154,7 @@
                 </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/team-2.jpg" alt="Photo" width="264">
+                    <img src="./images/team-2.jpg" srcset="./images/team-2.jpg 1x, ./images/team-2-x2.jpg 2x" alt="Photo" width="264">
                     <div class="team-border">
                     <h3 class="team-after-title">Tom Ford</h3>
                     <p class="team-text">Frontend Developer</p>
@@ -185,7 +191,7 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/team-3.jpg" alt="Photo" width="264">
+                    <img src="./images/team-3.jpg" srcset="./images/team-3.jpg 1x, ./images/team-3-x2.jpg 2x" alt="Photo" width="264">
                     <div class="team-border">
                     <h3 class="team-after-title">Camila Garcia</h3>
                     <p class="team-text">Marketing</p>
@@ -222,7 +228,7 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/team-4.jpg" alt="Photo" width="264">
+                    <img src="./images/team-4.jpg" srcset="./images/team-4.jpg 1x, ./images/team-4-x2.jpg 2x" alt="Photo" width="264">
                     <div class="team-border">
                     <h3 class="team-after-title">Daniel Wilson</h3>
                     <p class="team-text">UI Designer</p>
@@ -312,7 +318,7 @@
                     </section>
       </main>
 <!-- <footer class="footer">
-    <div class="container footer-container">
+    <div class="footer-main footer-mobile footer-tablet container">
         <div class="footer-logo-text">
         <div class="footer-logo">
     <a class="footer-link link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
@@ -355,6 +361,7 @@
                     </div>
                     <div class="container-footer-subcribe">
                          <h3 class="footer-subscribe-title">Subscribe</h3>
+                         <div class="footer-main-subscribe">
                          <form class="footer-subscribe-form">
                             <div class="footer-subscribe-field">
                                 <input type="email"
@@ -370,8 +377,9 @@
                                 </svg>
                             </button>
                          </form>
+                        </div>
                     </div>
-                    </div>
+                </div>
 </footer> -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
