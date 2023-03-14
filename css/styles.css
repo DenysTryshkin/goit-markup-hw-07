@@ -156,14 +156,14 @@ bottom: -29px;
 }
 
 .button-menu-open {
-    display: block;
-    margin-left: auto;
-    border: none;
-    background-color: #ffffff;   
+display: block;
+margin-left: auto;
+border: none;
+background-color: #ffffff;   
 }
 
 .svg-menu-open {
-    stroke: #2E2F42;
+stroke: #2E2F42;
 }
 
 
@@ -193,14 +193,7 @@ url(../images/background-hero-mobile-x2.jpg);
 }
 }
 
-/* .section-button-container {
-max-width: 1440px;
-text-align: center;
-} */
-
 .section-title {
-/* width: 496px;
-height: 120px; */
 font-size: 36px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -236,7 +229,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 /*------------hero-------------*/
 
 .hero {
-    padding: 96px 16px;
+padding: 96px 16px;
 }
 
 .hero-list {
@@ -277,7 +270,7 @@ margin-bottom: 8px;
 }
 
 .hero-item {
-    width: 100%;
+width: 100%;
 }
 
 .hero-text {
@@ -1009,7 +1002,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover {
-    background: #404BBF;
+background: #404BBF;
 }
 
 .div-modal-button {
