@@ -147,5 +147,16 @@
                 .mob-menu {
                     display: none;
                 }
-    
+
+                .footer .footer-main {
+                    width: 558px;
+                    justify-content: start;
+                    gap: 72px 24px;
+                }
+    .footer .footer-subcribe-title {
+        text-align: left;
+    }
+    .subscribe-mail-input {
+        width: 264px;
+    }
     }

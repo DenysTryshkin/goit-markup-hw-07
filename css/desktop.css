@@ -89,6 +89,36 @@
                 bottom: -29px;
                 }
             
+    .footer .footer-main {
+        gap: 0;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+        .footer .footer-main {
+            width: 100%;
+        }
+
+        .footer-logo-text {
+            margin-right: 120px;
+        }
+
+        .container-social-media {
+            margin-right: 80px;
+        }
+
+        .footer .subscribe-title {
+            text-align: left;
+        }
+
+        .footer .container-footer-subscribe .footer-subscribe-form {
+            flex-wrap: nowrap;
+        }
+        .subscribe-button {
+            margin-left: 0;
+        }
+
     
     
     }

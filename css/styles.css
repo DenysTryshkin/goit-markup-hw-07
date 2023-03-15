@@ -557,13 +557,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 background: var(--primary-title-color);
 padding-top: 97.5px;
 padding-bottom: 97.5px;
-display: flex;
-flex-wrap: wrap;
+/* display: flex;
+flex-wrap: wrap; */
 }
 
 .footer-main {
     display: flex;
     flex-wrap: wrap; 
+    justify-content: center;
+    gap: 72px;
 }
 
 /* .footer-container {
@@ -571,28 +573,32 @@ display: flex;
 align-items: baseline;
 } */
 
-.footer-logo-text {
-    max-width: 264px;
-    display: flex;
+.footer .footer-logo-text {
+    max-width: 268px;
+    /* display: flex;
     flex-direction: column;
-    padding-bottom: 72px;
+    padding-bottom: 72px; */
 }
 
-.footer-logo {
-    justify-content: center;
-margin-bottom: 17.5px;
+.footer .footer-link {
+    width: 126px;
+    display: block;
+    line-height: 1.24;
+margin :0 auto 17.5px;
 }
 
 .footer-link {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
+font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 }
+
+
 
 .footer-logo {
 font-family: 'Raleway', sans-serif;
@@ -615,11 +621,6 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 
-.container-social-media {
-/* margin-right: 80px; */
-padding-bottom: 72px;
-}
-
 .social-media-title {
 font-family: 'Roboto';
 font-style: normal;
@@ -629,11 +630,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 color: #FFFFFF;
+text-align: center;
 }
 
 .footer-soc-list {
 display: flex;
-justify-content: center;
 gap: 16px;
 }
 
@@ -663,10 +664,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #31D0AA;
 }
 
-.container-footer-subscribe {
-/* width: 100%; */
-}
-
 .footer-main-subscribe {
     display: flex;
     flex-direction: column;
@@ -676,9 +673,6 @@ background-color: #31D0AA;
 }
 
 .footer-subscribe-title {
-display: flex;
-align-items: center;
-justify-content: center;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -753,6 +747,23 @@ margin-left: 24px;
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer .container-footer-subcribe .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.subscribe-mail-input {
+    width: 398%;
 }
 
 /*------portfolio------*/
