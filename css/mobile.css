@@ -4,9 +4,10 @@
     }
 
     .customers-soc-list {
-        justify-content: none;
-        }
+    justify-content: none;
+    }
 
-        
-        
+    .header-mob-tel {
+    font-size: 36px;      
+    }    
 }

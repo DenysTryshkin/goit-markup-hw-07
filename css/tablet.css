@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .container {
+.container {
         max-width: 766px;
         }
 
@@ -134,11 +134,18 @@
                
 
                 .header-tel, .header-mail {
-                    display: unset;
+                display: unset;
                     }
 
-                    .button-menu-open {
-                        display: none;
-                    }
+                .button-menu-open {
+                display: none;
+                }
+
+                .no-scroll {
+                overflow: hidden;
+                }      
+                .mob-menu {
+                    display: none;
+                }
     
     }
