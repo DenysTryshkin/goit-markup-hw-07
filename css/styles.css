@@ -672,6 +672,10 @@ background-color: #31D0AA;
     justify-content: center;
 }
 
+.footer .footer-subscribe-title {
+    text-align: center;
+}
+
 .footer-subscribe-title {
 font-family: 'Roboto';
 font-style: normal;
